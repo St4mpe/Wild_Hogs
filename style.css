@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --accent1: #ffe4ca;
+    --text1: #5d340c;
+}
+body{
+    min-height: 100dvh;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/002/076/791/large_2x/rustic-wood-texture-free-photo.jpg);
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding-top: 1.5rem;
+}
+header h1{
+    color: var(--text1);
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+}
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    text-decoration: solid;
+    color: var(--text1);
+}
+footer{
+    display: grid;
+    place-content: center;
+    background: #fff1e5;
+}
+.start{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    border-radius: 1rem;
+    background: var(--accent1);
+    width: 95%;
+}
+.BefinnerSigHär{
+    text-decoration: underline;
+}
+.infoRuta{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 90%;
+}
+@media screen and (min-width:1200px){
+    .infoRuta{
+        overflow-x: scroll;
+        max-width: 1000px;
+    }
+}
