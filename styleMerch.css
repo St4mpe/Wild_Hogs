@@ -67,40 +67,17 @@ footer{
 .BefinnerSigHär{
     text-decoration: underline;
 }
-.infoRuta{
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.produkter{
     margin: 1rem;
-    margin-left: auto;
     margin-right: auto;
-    min-height: 450px;
+    margin-left: auto;
     width: 85%;
-    padding: 1.5rem;
+    min-height: 450px;
+    background: #fff;
     border-radius: 1rem;
+}
+.produkter h1{
+    font-family: bold 1rem "Winky Rough", sans-serif;
     text-align: center;
-    font:bold 1.2rem "Winky Rough", sans-serif;
-}
-.stårför{
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-.stårför p{
-    padding: 0.5rem;
-    text-align: center;
-    font:bold 1.2rem "Winky Rough", sans-serif;
-}
-.stårför img{
-    height: 350px;
-    width: 400px;
-}
-@media screen and (min-width:1200px){
-    .stårför{
-        overflow-x: scroll;
-        max-width: 1000px;
-    }
+    padding-top: 1rem;
 }
