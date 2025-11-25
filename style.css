@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+/*
+.winky-rough-<uniquifier> {
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+*/
 *{
     margin: 0;
     padding: 0;
@@ -20,6 +31,7 @@ header{
 header h1{
     user-select: none;
     color: var(--text1);
+    font:bold 2.3rem "Winky Rough", sans-serif;
 }
 nav{
     margin-left: auto;
@@ -36,6 +48,7 @@ nav a{
     text-decoration: none;
     text-decoration: solid;
     color: var(--text1);
+    font:bold 1.4rem "Winky Rough", sans-serif;
 }
 footer{
     display: grid;
@@ -66,6 +79,7 @@ footer{
     padding: 1.5rem;
     border-radius: 1rem;
     text-align: center;
+    font:bold 1.2rem "Winky Rough", sans-serif;
 }
 .stårför{
     margin-left: auto;
@@ -77,7 +91,7 @@ footer{
 .stårför p{
     padding: 0.5rem;
     text-align: center;
-    font-size: 18px;
+    font:bold 1.2rem "Winky Rough", sans-serif;
 }
 .stårför img{
     height: 350px;
