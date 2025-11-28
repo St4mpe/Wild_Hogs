@@ -118,6 +118,7 @@ footer{
 .gridBox p{
     text-align: center;
     margin-bottom: 0.5rem;
+    user-select: none;
 }
 .gridBox img{
     display: grid;
@@ -127,6 +128,7 @@ footer{
     margin-bottom: 1.5rem;
     margin-right: auto;
     margin-left: auto;
+    -webkit-user-drag: none;
 }
 .gridBox.active {
   transform: scale(1.15);
@@ -147,6 +149,7 @@ footer{
   color: white;
   font-size: 1.1rem;
   transition: bottom 0.3s ease;
+  user-select: none;
 }
 
 #overlay {
