@@ -15,7 +15,7 @@
                 <h1>Wild Hogs</h1>
             </header>
             <section>
-                <a href="kundvagn.html">
+                <a href="kundvagn.php">
                     <img src="https://media.istockphoto.com/id/1142859120/sv/vektor/kundvagn-ikon.jpg?s=612x612&w=0&k=20&c=X8Ud0paUvCPBW8lGd5INXupXBMcgl4szYI-1zFWdkEo=" alt="Varukorg">
                 </a>
             </section>
