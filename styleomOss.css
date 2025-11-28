@@ -81,78 +81,27 @@ footer{
 .BefinnerSigHär{
     text-decoration: underline;
 }
-.produkterRuta{
+.produkter{
     margin: 1rem;
     margin-right: auto;
     margin-left: auto;
-    padding: 2rem;
     width: 85%;
     min-height: 450px;
     background: #fff;
     border-radius: 1rem;
 }
-.produkterRuta h1{
+.produkter h1{
     font-family: bold 1rem "Winky Rough", sans-serif;
-    text-align: center; 
-    padding-bottom: 1rem;
-}
-.produkter{
-    display:grid;
-    grid-auto-rows:min-max(200px, 1fr);
-    gap:1.5rem;
-}
-.gridBox{
-  width:100%;
-  background: #eae9e9;
-  padding:.8em;
-  min-height: 200px;
-  border-radius:0.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  box-shadow: 5px 5px 3px lightgray;
-}
-.gridBox p{
     text-align: center;
-    margin-bottom: 0.5rem;
-}
-.gridBox img{
-    display: grid;
-    place-content: center;
-    height: 150px;
-    width: 150px;
-    margin-bottom: 1.5rem;
-    margin-right: auto;
-    margin-left: auto;
+    padding-top: 1rem;
 }
 @media screen and (max-width:600px){
     header{
         place-content: center;
     }
-    .produkter{
-        grid-template-columns: repeat(1, 1fr)
-    }
 }
 @media screen and (min-width:600px){
     header{
         place-content: left;
-    }
-    .produkter{
-        grid-template-columns: repeat(2, 1fr)
-    }
-}
-@media screen and (min-width:850px){
-    header{
-        place-content: left;
-    }
-    .produkter{
-        grid-template-columns: repeat(3, 1fr)
-    }
-}
-@media screen and (min-width:1200px){
-    header{
-        place-content: left;
-    }
-    .produkter{
-        grid-template-columns: repeat(4, 1fr)
     }
 }
