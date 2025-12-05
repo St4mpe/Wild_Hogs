@@ -18,10 +18,21 @@
                 <button id="kassa" popovertarget="summa"><img src="https://media.istockphoto.com/id/1142859120/sv/vektor/kundvagn-ikon.jpg?s=612x612&w=0&k=20&c=X8Ud0paUvCPBW8lGd5INXupXBMcgl4szYI-1zFWdkEo=" alt="Varukorg"></button>
                 <div id="summa" popover>
                     <h2>Kassa:</h2>
-                    <p>Produkter:</p>
-                    <section class="summafält">
-                        <p>Summa:</p>
-                        <p id="total"></p>
+                    <section class="sesnyggut">
+                        <p>Produkter:</p>
+                        <section class="iKorgen">
+                            <section class="korgDisplay"><p id="antalHoodie"></p><p id="korgHoodie"></p></section>
+                            <section class="korgDisplay"><p id="anatalHjälm"></p><p id="korgHjälm"></p></section>
+                            <section class="korgDisplay"><p id="anatalStekpanna"></p><p id="korgStekPanna"></p></section>
+                            <section class="korgDisplay"><p id="anatalGryta"></p><p id="korgGryta"></p></section>
+                            <section class="korgDisplay"><p id="anatalKniv"></p><p id="korgKniv"></p></section>
+                            <section class="korgDisplay"><p id="anatalGun"></p><p id="korgGun"></p></section>
+                            <section class="korgDisplay"><p id="anatalTent"></p><p id="korgTent"></p></section>
+                        </section>
+                        <section class="summafält">
+                            <p>Summa:</p>
+                            <p id="total"></p>
+                        </section>
                     </section>
                 </div>
         </section>
@@ -68,12 +79,12 @@
                 <section class="gridBox" data-price="Lägg Till - 850kr">
                     <p>Tält</p>
                     <img src="https://m.media-amazon.com/images/I/A1djQ8DCi5L.jpg" alt="tält">
-                    <a href="#"><section class="price"></section></a>
+                    <section class="price" id="camp"></section>
                 </section>
                 <section class="gridBox" data-price="Lägg Till - 7000kr">
                     <p>Magisk Pinne</p>
                     <img src="https://media.istockphoto.com/id/512548637/sv/foto/wooden-twig-isolated.jpg?s=612x612&w=0&k=20&c=opiRBhue4AZExi1i7BosQ-p1uoQZdi8npLjbzhJ8CT4=" alt="pinne">
-                    <a href="#"><section class="price"></section></a>
+                    <section class="price" id="pinne"></section>
                 </section>
             </section>
         </section>

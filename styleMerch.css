@@ -98,10 +98,25 @@ footer{
     border-radius: 1rem;
     padding: 2rem;
 }
+.sesnyggut{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.iKorgen{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.korgDisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .summafält{
     display: flex;
     flex-direction: row;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 .BefinnerSigHär{
     text-decoration: underline;
