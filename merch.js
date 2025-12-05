@@ -30,6 +30,8 @@ document.addEventListener("DOMContentLoaded", function(){
   const korgTent = document.getElementById('korgTent');
 
   const pinne = document.getElementById('pinne');
+  const anatalPinne = document.getElementById('anatalPinne');
+  const korgPinne = document.getElementById('korgPinne');
 
   const overlay = document.getElementById('overlay');
   const totalSumma = document.getElementById('total');
@@ -43,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function(){
   let _anatalKniv = 0;
   let _anatalGun = 0;
   let _anatalTent = 0;
+  let _anatalPinne = 0;
 
   let sum = 0;
 
@@ -114,13 +117,17 @@ document.addEventListener("DOMContentLoaded", function(){
 
   camp.addEventListener("click", () => {
       sum += 850;
-      console.log(sum);
+      _anatalTent += 1;
       totalSumma.innerHTML = sum+"kr";
+      anatalTent.innerHTML = _anatalTent+"x";
+      korgTent.innerHTML = "Tält"
   })
 
   pinne.addEventListener("click", () => {
       sum += 7000;
-      console.log(sum);
+      _anatalPinne += 1;
       totalSumma.innerHTML = sum+"kr";
+      anatalPinne.innerHTML = _anatalPinne+"x";
+      korgPinne.innerHTML = "Magisk Pinne"
   })
 })

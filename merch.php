@@ -28,6 +28,7 @@
                             <section class="korgDisplay"><p id="anatalKniv"></p><p id="korgKniv"></p></section>
                             <section class="korgDisplay"><p id="anatalGun"></p><p id="korgGun"></p></section>
                             <section class="korgDisplay"><p id="anatalTent"></p><p id="korgTent"></p></section>
+                            <section class="korgDisplay"><p id="anatalPinne"></p><p id="korgPinne"></p></section>
                         </section>
                         <section class="summafält">
                             <p>Summa:</p>
